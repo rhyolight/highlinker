@@ -1,0 +1,27 @@
+{
+    "name": "highlinker",
+    "version": "0.0.1",
+    "author": "Matt Taylor <rhyolight@gmail.com>",
+    "description": "A prototype.",
+    "contributors": [{
+        "name": "Matt Taylor",
+        "email": "rhyolight@gmail.com"
+    }],
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:rhyolight/highlinker.git"
+    },
+    "dependencies": {
+        "express": "3.x",
+        "jquery": "*",
+        "request": "*"
+    },
+    "devDependencies": {
+        "proxyquire": "*"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10"
+    }
+}
