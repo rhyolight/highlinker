@@ -4,4 +4,8 @@ var express = require('express'),
 
 app.get('/highlink', highlink());
 
-app.listen(3000);
+var port = process.env.PORT || 5000;
+
+app.listen(port, function() {
+  console.log("Listening on " + port);
+});
